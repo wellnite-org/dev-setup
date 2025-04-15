@@ -43,15 +43,15 @@ main() {
     case $choice in
         1)
             echo -e "${GREEN}Installing tooling for Web development...${NC}"
-            ./disciplines/web.sh
+            cd disciplines && ./web.sh
             ;;
         2)
             echo -e "${GREEN}Installing tooling for iOS development...${NC}"
-            ./disciplines/ios.sh
+            cd disciplines && ./ios.sh
             ;;
         3)
             echo -e "${GREEN}Installing tooling for Android development...${NC}"
-            ./disciplines/android.sh
+            cd disciplines && ./android.sh
             ;;
         4)
             echo "Exiting..."
