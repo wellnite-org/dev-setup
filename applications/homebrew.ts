@@ -1,6 +1,6 @@
+import chalk from 'chalk';
 import { execSync } from 'node:child_process';
 import os from 'node:os';
-import chalk from 'chalk';
 
 function installHomebrew() {
   const HOMEBREW_INSTALLER = 'https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh';
